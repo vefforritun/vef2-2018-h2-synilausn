@@ -1,0 +1,12 @@
+.edit__input {
+  margin-bottom: 20px;
+}
+
+.edit__submit {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.errors {
+  margin-bottom: 20px;
+}

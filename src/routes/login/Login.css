@@ -1,0 +1,17 @@
+.login__input {
+  margin-bottom: 10px;
+}
+
+.login__button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.login__link {
+  text-decoration: underline;
+}
+
+.login__error,
+.login__message {
+  margin-bottom: 20px;
+}

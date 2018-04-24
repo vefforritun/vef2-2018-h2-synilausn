@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+  padding: 20px;
+
+  background-color: #dcbe87;
+}
+
+.header__heading a {
+  text-decoration: none;
+}
+
+.header__search {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__user {
+  margin-top: 20px;
+}
+
+@media (min-width: 420px) {
+  .header {
+    flex-direction: row;
+  }
+
+  .header__user {
+    margin-top: 0;
+  }
+}
+
+.header__search {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .header__search {
+    display: flex;
+  }
+}
+

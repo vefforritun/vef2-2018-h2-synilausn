@@ -1,0 +1,45 @@
+.input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+}
+
+.input__label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.input__input {
+  flex: 2;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.input__textarea {
+  border: 1px solid #4e1d04;
+  border-radius: 5px;
+  padding: 10px ;
+  width: 100%;
+  max-width: 600px;
+  min-height: 10rem;
+  font-size: 1rem;
+}
+
+.input__select {
+  flex: 2;
+  padding: 5px 10px;
+  font-size: 1rem;
+  min-width: 100px;
+}
+
+.input--invalid .input__label {
+  color: red;
+}
+
+.input--invalid .input__input,
+.input--invalid .input__textarea,
+.input--invalid .input__select {
+  border-color: red;
+}

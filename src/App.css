@@ -1,0 +1,12 @@
+/*
+XXX #325453
+#dcbe87
+#4e1d04
+*/
+
+.main__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+}

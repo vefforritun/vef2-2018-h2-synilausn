@@ -1,0 +1,18 @@
+.read {
+  margin-bottom: 40px;
+}
+
+.read__form {
+  margin-bottom: 40px;
+}
+
+.read__input {
+  margin-bottom: 20px;
+}
+
+.read__buttons {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  justify-content: space-between;
+}
